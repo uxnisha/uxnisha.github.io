@@ -1,24 +1,55 @@
 body {
-    background: url("https://static.pexels.com/photos/7095/people-coffee-notes-tea.jpg");
+    background: url("http://i.imgur.com/d0pEIlI.jpg");
     background-size: cover;
-    font-family: Helvetica;
+    font-family: 'Lato';
     text-align: center;
 }
 
-#logo {
-    font-size: 35px;
-    line-height: 54px;
+h1 {
+    font-size: 85px;
+    font-weight: 100;
+    line-height: normal;
+    color: #E3E3E3;
 }
 
 #slogan {
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+a {
+    color: #607D8B;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 #navigation {
     display: inline;
     padding-right: 30px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 200;
+    font-size: 14px;
+}
+
+#list {
+    text-align: center;
+    list-style-type: none;
+}
+
+#hr {
+    width: 500px;
+    color: #C9C9C9;
+    height: 1px;
+}
+
+p,
+ul,
+footer {
+    color: #C9C9C9;
+}
+
+#box {
+    display: inline-block;
+    left: 50%;
+    width: 30%;
 }
