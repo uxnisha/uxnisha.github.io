@@ -1,5 +1,6 @@
-Body {
-    background-image: url("https://unsplash.com/photos/rM7fqrIQb94");
+body {
+    background: url("https://static.pexels.com/photos/7095/people-coffee-notes-tea.jpg");
+    background-size: cover;
     font-family: Helvetica;
     text-align: center;
 }
