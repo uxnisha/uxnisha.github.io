@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:400,400i,900');
+body {
+    background: url("http://i.imgur.com/dToeNgX.jpg");
+    background-size: cover;
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    /* 1 em = 16 px */
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: normal;
+    color: #E3E3E3;
+    margin: 150px 0 0;
+}
+
+#slogan {
+    font-family: 'Roboto';
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+a {
+    color: #4c7081;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#navigation {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: none;
+    padding: 20px;
+    margin: 0, 20px;
+    /*  display: inline;
+    padding-right: 30px;
+    font-size: 14px; */
+}
+
+#list {
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#hr {
+    border: none;
+    height: 6px;
+    background-color: #4c7081;
+    width: 3em;
+    margin: 1em auto;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+p,
+ul,
+footer {
+    color: #C9C9C9;
+    padding: 50px 0;
+}
+
+#box {
+    display: inline-block;
+    left: 50%;
+    width: 30%;
+    font-size: 1.3em;
+    font-style: italic;
+}
