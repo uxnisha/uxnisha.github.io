@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:400,400i,900');
+html,
 body {
-    background: url("https://raw.githubusercontent.com/uxnisha/uxnisha.github.io/master/unit_4/images/HERO2.jpg");
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     font-family: 'Lora', sans-serif;
     font-size: 16px;
@@ -8,7 +12,21 @@ body {
     text-align: center;
 }
 
-h1 {
+nav {
+    background-color: #E8C66A;
+    top: 45px;
+}
+
+header {
+    background-color: #FFED74;
+}
+
+section,
+div {
+    background-color: #FFE2B8;
+}
+
+#logo {
     font-family: 'Roboto';
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -19,12 +37,13 @@ h1 {
     margin: 150px 0 0;
 }
 
-#slogan {
+h1 {
     font-family: 'Roboto';
     font-size: 4em;
     font-weight: 900;
     line-height: 14px;
     color: #FFFFFF;
+    padding-top: 30px;
 }
 
 a {
@@ -33,17 +52,15 @@ a {
     font-weight: normal;
 }
 
-#navigation {
+#primary_nav {
     font-family: 'Roboto';
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
     border: none;
     padding: 20px;
-    margin: 0, 20px;
-    /*  display: inline;
+    display: inline;
     padding-right: 30px;
-    font-size: 14px; */
 }
 
 #list {
@@ -67,22 +84,19 @@ p {
     line-height: 1.5em;
 }
 
-#list {
-    text-align: center;
-    list-style-type: none;
-}
-
 p,
 ul,
 footer {
     color: #C9C9C9;
+    background-color: #FF957E;
     padding: 50px 0;
 }
 
-#box {
+h3 {
     display: inline-block;
     left: 50%;
     width: 30%;
     font-size: 1.3em;
     font-style: italic;
+    padding: 20px 20px 150px 20px;
 }
