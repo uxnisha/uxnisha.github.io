@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:400,400i,900');
+body {
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    /* 1 em = 16 px */
+    text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+}
+
+footer {
+    background-color: #FF957E;
+}
+
+div,
+section {
+    background-color: #FFE2B8;
+}
+
+#about,
+#contact,
+#ID,
+#UX,
+#DEV,
+#PS {
+    width: 50%;
+    display: inline-block;
+}
+
+#ID {
+    float: left;
+}
+
+#UX {
+    float: right;
+}
+
+#DEV {
+    float: left;
+}
+
+#PS {
+    float: right;
+}
+
+.worktype {
+    float: left;
+    width: 50%;
+    height: 15em;
+    background: #42ab9e;
+    text-align: center;
+    line-height: 15em;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #16191b;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+#interface {
+    background-color: #E582A2;
+}
+
+#ux {
+    background-color: #E55B88;
+}
+
+#dev {
+    background-color: #E582A2;
+}
+
+#product {
+    background-color: #E55B88;
+}
+
+h1 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    color: #42ab9e;
+    font-weight: 500;
+    line-height: normal;
+    color: #E3E3E3;
+    margin: 150px 0 0;
+}
+
+h2 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 1.5em;
+    color: #16191b;
+    font-weight: 500;
+    line-height: normal;
+    margin: 50px 50px 50px;
+}
+
+a:hover {
+    background: #42ab9e;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 40px;
+    float: none;
+    width: 500px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #f4f7f6;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: #f4f7f6;
+    /* if you want it vertically middle of the navbar. */
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    color: #42ab9e;
+    font-weight: 500;
+    line-height: normal;
+    color: #E3E3E3;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+p,
+ul,
+footer {
+    color: #16191b;
+    padding: 50px 0;
+    clear: both;
+}
+
+#list {
+    text-align: center;
+    list-style-type: none;
+}
+
+#box {
+    display: inline-block;
+    left: 50%;
+    width: 30%;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#list {
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#hr {
+    border: none;
+    height: 4px;
+    background-color: #fbf072;
+    width: 3em;
+    margin: 1em auto;
+}
+
+#slogan {
+    font-family: 'Roboto';
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 14px;
+    color: #f4f7f6;
+}
+
+#work {
+    float: left;
+    width: 50%;
+    height: 6em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'Roboto', sans-serif;
+    clear: both;
+}
+
+footer a {
+    text-decoration: none;
+    color: #16191b;
+}
+
+footer a:hover {
+    background: none;
+    color: #42ab9e;
+    text-decoration: none;
+}
+
+
+/*
+#landing {
+    background: url("https://raw.githubusercontent.com/uxnisha/uxnisha.github.io/master/unit_5/images/heroimg2.jpg");
+    background-size: cover;
+    height: 960px;
+}
+*/
+
+#landing p {
+    color: #f4f7f6;
+}
