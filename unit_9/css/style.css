@@ -1,0 +1,327 @@
+    /* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links & Nav
+- Clearing
+- Landing Page
+- About Page
+- Work Page
+- Footer
+- Media Queries
+
+*/
+    /* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    /* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    @import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:400,400i,900');
+    body {
+        font-family: 'Lora', sans-serif;
+        font-size: 16px;
+        /* 1 em = 16 px */
+        text-align: center;
+    }
+    /* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    h1 {
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue";
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        font-size: 2em;
+        color: #42ab9e;
+        font-weight: 500;
+        line-height: normal;
+        color: #acbcc6;
+        margin: 150px 0 0;
+    }
+    
+    h2 {
+        font-family: "lust-display-didone", sans-serif;
+        font-size: 5em;
+        color: #16191b;
+        font-weight: 400;
+        line-height: normal;
+        margin: 50px 50px 50px;
+    }
+    
+    h3 {
+        text-decoration: none;
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue", text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    
+    p {
+        text-decoration: none;
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue", text-transform: uppercase;
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    
+    p,
+    ul,
+    footer {
+        color: #16191b;
+        padding: 50px 0;
+        clear: both;
+    }
+    
+    #p2 {
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    /* Links & Nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    a:hover {
+        background: #42ab9e;
+    }
+    
+    nav {
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 2px;
+        padding: 40px;
+        float: none;
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        color: #f4f7f6;
+        text-decoration: none;
+        font-weight: normal;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    footer a:hover {
+        background: none;
+        color: #42ab9e;
+        text-decoration: none;
+    }
+    /* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    /* Landing Page 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    #landing {
+        background: url("https://raw.githubusercontent.com/uxnisha/uxnisha.github.io/master/unit_5/images/heroimg2.jpg");
+        background-size: cover;
+        height: 960px;
+    }
+    
+    #landing p {
+        color: #f4f7f6;
+    }
+    
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+        margin-top: 15px;
+        color: #f4f7f6;
+        /* if you want it vertically middle of the navbar. */
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        font-size: 2em;
+        color: #42ab9e;
+        font-weight: 500;
+        line-height: normal;
+        color: #E3E3E3;
+    }
+    
+    #box {
+        display: inline-block;
+        left: 50%;
+        width: 30%;
+        line-height: 2em;
+        color: #E3E3E3;
+        padding: 3em;
+    }
+    
+    #hr {
+        border: none;
+        height: 4px;
+        background-color: #fbf072;
+        width: 3em;
+        margin: 1em auto;
+    }
+    
+    #slogan {
+        font-family: "lust-display-didone", sans-serif;
+        font-size: 4em;
+        font-weight: 400;
+        line-height: 14px;
+        color: #f4f7f6;
+    }
+    /* About Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    #about {
+        width: 50%;
+        display: inline-block;
+    }
+    /* Work Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    .wrapper {
+        width: 100%;
+        margin: 0%;
+    }
+    
+    #about,
+    #contact,
+    #ID,
+    #UX,
+    #DEV,
+    #PS {
+        width: 50%;
+        display: inline-block;
+    }
+    
+    #ID {
+        float: left;
+    }
+    
+    #UX {
+        float: right;
+    }
+    
+    #DEV {
+        float: left;
+    }
+    
+    #PS {
+        float: right;
+    }
+    
+    .worktype {
+        float: left;
+        width: 50%;
+        height: 20em;
+        text-align: center;
+        line-height: 20em;
+        font-size: 1em;
+        color: #16191b;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue";
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+    }
+    
+    #interface,
+    #ux,
+    #dev,
+    #product {
+        font-family: "freight-text-pro", "HelveticaNeue", "Helvetica Neue";
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    #interface {
+        background-color: #f5f0dd;
+    }
+    
+    #ux {
+        background-color: #acbcc6;
+    }
+    
+    #dev {
+        background-color: #e2eaf1;
+    }
+    
+    #product {
+        background-color: #e5e7e6;
+    }
+    /* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    footer {
+        text-align: center;
+        padding: 1em 0;
+        font-family: 'Roboto', sans-serif;
+        clear: both;
+    }
+    /* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    @media only screen and (max-width: 820px) {
+        #slogan {
+            font-size: 2.5em;
+            font-weight: 900;
+            line-height: 1.5em;
+            padding: 1em;
+        }
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+        h1 {
+            font-size: 1em;
+        }
+        #box {
+            display: inline-block;
+            left: 40%;
+            width: 40%;
+            font-size: 1em;
+            line-height: 1em;
+        }
+        #about,
+        #contact {
+            font-size: 1em;
+            line-height: 1em;
+            text-align: center;
+            padding: 1em;
+        }
+        .worktype {
+            float: left;
+            width: 100%;
+            height: 10em;
+            text-align: center;
+            line-height: 10em;
+            text-transform: uppercase;
+            font-size: 1em;
+            color: #16191b;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+        }
+        nav,
+        nav a {
+            display: block;
+            padding: 10px;
+            width: 5em;
+            font-size: 1em;
+        }
+        h1 {
+            letter-spacing: 0.3em;
+            font-size: 2em;
+            line-height: 1.5em;
+            padding: 1em;
+        }
+    }
